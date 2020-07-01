@@ -1,0 +1,22 @@
+# Deploys cloudskew-blog to testing environment (blob storage accessed via cdn).
+
+pool:
+  vmImage: ubuntu-latest
+
+trigger:
+  - master
+
+name: cloudskew-blog.testing
+
+variables:
+  - group: cloudskew-variable-group
+
+stages:
+  - template: templates/stages.yml
+    parameters:
+      azureSubscription: $(testing-service-connection)
+      cdnEndpointName: $(testing-cdnendpoint-name-cloudskew-blog)
+      cdnProfileName: $(testing-cdnprofile-name-cloudskew-cdn)
+      cdnResourceGroupName: $(testing-resource-group-cloudskew-cdn)
+      environment: testing
+      storageAccountName: $(testing-storageaccount-name-cloudskew-blog)
