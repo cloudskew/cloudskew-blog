@@ -44,5 +44,9 @@ module.exports = {
                 },
             ],
         },
+
+        canonical_base: 'https://blog.cloudskew.com', // needed for rss feed,
+
+        hostname: 'https://blog.cloudskew.com', // needed for sitemap.xml
     },
 }
