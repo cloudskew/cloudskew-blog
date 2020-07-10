@@ -7,7 +7,9 @@ module.exports = {
     theme: '@vuepress/theme-blog',
     themeConfig: {
 
-        hostname: 'https://blog.cloudskew.com', // needed for blog's sitemap
+        sitemap: {
+            hostname: 'https://blog.cloudskew.com',
+        },
 
         nav: [
             { text: 'Tags', link: '/tag/' },
@@ -45,8 +47,8 @@ module.exports = {
             ],
         },
 
-        canonical_base: 'https://blog.cloudskew.com', // needed for rss feed,
-
-        hostname: 'https://blog.cloudskew.com', // needed for sitemap.xml
+        feed: {
+            canonical_base: 'https://blog.cloudskew.com',
+        },
     },
 }
