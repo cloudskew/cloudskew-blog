@@ -12,13 +12,13 @@ _Note: This blog post is part of a series centered around the topic of high avai
 
 * _**The basics (this post)**_
 * _SLAs and the 9s (coming soon)_
-* _Availability Sets (coming soon)_
-* _Availability Zones (coming soon)_
-* _Storage redundancies (coming soon)_
+* _[Availability sets](../../../../2019/03/29/high-availability-azure-3-availability-sets)_
+* _[Availability zones](../../../../2019/03/31/high-availability-azure-4-availability-zones)_
+* _[Storage redundancies](../../../../2019/03/02/high-availability-azure-5-storage)_
 * _Load balancing (coming soon)_
 * _Application gateways (coming soon)_
-* _Traffic management (coming soon)_
-* _App Service, Function Apps (coming soon)_
+* _[Traffic management](../../../../2019/03/16/high-availability-azure-8-traffic)_
+* _[App service, function apps](../../../../2019/03/23/high-availability-azure-9-apps)_
 * _SQL (coming soon)_
 * _CosmosDB (coming soon)_
 * _Wrapping up (coming soon)_
