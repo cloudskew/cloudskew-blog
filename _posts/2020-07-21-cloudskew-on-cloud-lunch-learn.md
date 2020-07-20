@@ -1,5 +1,5 @@
 ---
-title: CloudSkew appears on the Cloud Lunch & Learn show
+title: CloudSkew featured on the Cloud Lunch & Learn show
 summary: Last week, the Cloud Lunch & Learn show featured CloudSkew. We discussed how CloudSkew's internals were built on top of Azure.
 author: Mithun Shanbhag
 date: 2020-07-21
